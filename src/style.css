@@ -1,4 +1,57 @@
 body {
-  background: sandybrown;
+  background-color: lightgrey;
+}
+.container {
+  margin: 100px auto;
+  max-width: 600px;
+}
+
+h1 {
+  line-height: 1.5px;
+  margin: 40px;
   text-align: center;
+}
+
+form {
+  background-color: aliceblue;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 20px 60px rgba(102, 220, 206, 0.2);
+}
+
+.input-text {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-size: 13px;
+}
+.poem {
+  margin-top: 30px;
+  border-left: 5px solid darkcyan;
+  padding: 10px;
+  background-color: aliceblue;
+  line-height: 25px;
+  box-shadow: 0px 20px 60px rgba(102, 220, 206, 0.2);
+}
+
+footer {
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.submit-button {
+  background-color: darkcyan;
+  padding: 12px;
+  margin: 10px;
+  border: none;
+  border-radius: 30px;
+  width: 80px;
+  color: white;
+}
+
+a {
+  color: darkcyan;
+  font-weight: 500;
 }
