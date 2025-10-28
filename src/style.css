@@ -26,6 +26,10 @@ form {
   border-radius: 30px;
   font-size: 13px;
 }
+
+.input-text:focus {
+  outline: none;
+}
 .poem {
   margin-top: 30px;
   border-left: 5px solid darkcyan;
