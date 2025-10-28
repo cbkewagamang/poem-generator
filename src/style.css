@@ -10,6 +10,7 @@ h1 {
   line-height: 1.5px;
   margin: 40px;
   text-align: center;
+  font-weight: bold;
 }
 
 form {
@@ -40,7 +41,12 @@ form {
 }
 #poem {
   white-space: pre-line;
+  padding-left: 34px;
 }
+.poem strong {
+  color: darkcyan;
+}
+
 footer {
   font-size: 14px;
   margin-top: 20px;
