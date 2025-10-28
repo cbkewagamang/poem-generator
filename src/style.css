@@ -12,12 +12,16 @@ h1 {
   text-align: center;
   font-weight: bold;
 }
-
-form {
+.form-container {
   background-color: aliceblue;
   padding: 40px;
   border-radius: 5px;
   box-shadow: 0px 20px 60px rgba(102, 220, 206, 0.2);
+}
+form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .input-text {
@@ -39,6 +43,9 @@ form {
   line-height: 25px;
   box-shadow: 0px 20px 60px rgba(102, 220, 206, 0.2);
 }
+.hidden {
+  display: none;
+}
 #poem {
   white-space: pre-line;
   padding-left: 34px;
@@ -56,7 +63,7 @@ footer {
 .submit-button {
   background-color: darkcyan;
   padding: 12px;
-  margin: 10px;
+  margin: 2px;
   border: none;
   border-radius: 30px;
   width: 80px;
@@ -66,4 +73,10 @@ footer {
 a {
   color: darkcyan;
   font-weight: 500;
+}
+small {
+  color: grey;
+  margin-left: 10px;
+  margin-top: 0;
+  display: block;
 }
