@@ -5,9 +5,18 @@ function generatePoem(event) {
   let poemElement = document.querySelector("#poem");
 
   new Typewriter("#poem", {
-    strings: "Roses are red..",
+    strings: `Roses are red,
+Violets are blue,
+My heart finds its rhythm,
+When thinking of you.
+
+The moonlight may whisper,
+Of love pure and true,
+But no words could capture,
+What I feel for you..🌹
+`,
     autoStart: true,
-    //delay: 0.5,
+    delay: 50,
     cursor: "",
   });
 }

@@ -38,7 +38,9 @@ form {
   line-height: 25px;
   box-shadow: 0px 20px 60px rgba(102, 220, 206, 0.2);
 }
-
+#poem {
+  white-space: pre-line;
+}
 footer {
   font-size: 14px;
   margin-top: 20px;
